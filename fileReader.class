@@ -1,0 +1,36 @@
+
+<?php
+    
+    class fileReader
+    {
+        public $filename;
+        public $fileContentSplit = "\n";
+        public $rawFileContents;
+        public $rawFileLines;
+        public $cleanFileFiles;
+        
+        public function __construct($filename)
+        {
+            $this->filename = $filename;
+        }
+        
+        public function getFileContents()
+        {
+            $fopen = fopen($this->filename, "r");
+            $this->rawFileContents = fread($fopen,filesize("{$this->filename}"));
+            fclose($fopen);
+            
+            $this->rawFileLines = explode($this->fileContentSplit, $this->rawFileContents);
+            $this->cleanLines();
+            
+            return $this->cleanFileFiles;
+        }
+        
+        protected function cleanLines()
+        {
+            $this->cleanFileFiles = array();
+            foreach($this->rawFileLines as $line) {
+                $this->cleanFileFiles[] = trim($line);
+            }
+        }
+    }

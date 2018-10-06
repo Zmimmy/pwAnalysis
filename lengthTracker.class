@@ -1,0 +1,31 @@
+<?php
+
+class lengthTracker
+{
+    public $length = array();
+    
+    public function __construct()
+    {
+        
+    }
+    
+    public function trackWord($word)
+    {
+        $len = strlen($word);
+        
+        if (isset($this->length[$len])) {
+            $this->length[$len]++;
+        } else {
+            $this->length[$len] = 1;
+        }
+    }
+    
+    public function printLengthAnalysis()
+    {
+        ksort($this->length);
+        echo "Length Analysis\n";
+        foreach($this->length as $i => $count) {
+            echo "  Length $i: $count\n";
+        }
+    }
+}

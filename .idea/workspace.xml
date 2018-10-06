@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="dca9005c-f6d3-432c-a868-25b83b9e0c13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/projectFiles.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/anaylsis.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/characterAnalysis.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fileReader.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lengthTracker.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1611284664">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="3" />
+          <entry key="php" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PHP" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="class" value="1489" />
+          <entry key="php" value="690" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PHP" value="2179" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.php.new.class" />
+      <usages-collector id="statistics.php.rename.constructor" />
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.php.composer.command.options" />
+      <usages-collector id="statistics.php.new.test" />
+      <usages-collector id="statistics.php.composer.actions" />
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/anaylsis.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="32" selection-start-line="32" selection-end-line="32" />
+              <folding>
+                <element signature="n#run#0;n#anaylsis#0;n#!!top" expanded="true" />
+                <element signature="n#printAnalysis#0;n#anaylsis#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/characterAnalysis.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+              <folding>
+                <element signature="n#__construct#0;n#characterAnalysis#0;n#!!top" expanded="true" />
+                <element signature="n#analyzeCharacters#0;n#characterAnalysis#0;n#!!top" expanded="true" />
+                <element signature="n#getUppercaseCount#0;n#characterAnalysis#0;n#!!top" expanded="true" />
+                <element signature="n#getLowercaseCount#0;n#characterAnalysis#0;n#!!top" expanded="true" />
+                <element signature="n#getDigitCount#0;n#characterAnalysis#0;n#!!top" expanded="true" />
+                <element signature="n#getSpecialCharacterCount#0;n#characterAnalysis#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lengthTracker.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="384">
+              <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+              <folding>
+                <element signature="n#__construct#0;n#lengthTracker#0;n#!!top" expanded="true" />
+                <element signature="n#trackWord#0;n#lengthTracker#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fileReader.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="432">
+              <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+              <folding>
+                <element signature="n#__construct#0;n#fileReader#0;n#!!top" expanded="true" />
+                <element signature="n#getFileContents#0;n#fileReader#0;n#!!top" expanded="true" />
+                <element signature="n#cleanLines#0;n#fileReader#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/fileReader.class" />
+        <option value="$PROJECT_DIR$/lengthTracker.class" />
+        <option value="$PROJECT_DIR$/anaylsis.php" />
+        <option value="$PROJECT_DIR$/characterAnalysis.class" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-1920" />
+    <option name="y" value="23" />
+    <option name="width" value="1888" />
+    <option name="height" value="1006" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="projectFiles" type="b2602c69:ProjectViewProjectNode" />
+              <item name="projectFiles" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dca9005c-f6d3-432c-a868-25b83b9e0c13" name="Default Changelist" comment="" />
+      <created>1538858647357</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538858647357</updated>
+      <workItem from="1538858648923" duration="3232000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3232000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-1920" y="23" width="1888" height="1006" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="top" id="Database" order="0" weight="0.14992578" />
+      <window_info anchor="top" x="1680" y="-165" width="602" height="1647" id="Structure" order="1" side_tool="true" type="WINDOWED" weight="0.13561133" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49674267" weight="0.31979167" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32978183" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49788472" weight="0.3992897" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.17417121" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5021153" side_tool="true" weight="0.3992897" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="REST Client" order="9" weight="0.32937098" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4974592" weight="0.3289273" />
+      <window_info anchor="bottom" id="Messages" order="11" />
+      <window_info anchor="bottom" id="CSS Styles" order="12" weight="0.32951146" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32470828" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" weight="0.32954547" />
+      <window_info active="true" anchor="bottom" id="Command Line Tools Console" order="15" visible="true" weight="0.32994407" />
+      <window_info anchor="bottom" id="Database Console" order="16" sideWeight="0.49719176" weight="0.17641078" />
+      <window_info anchor="bottom" id="Inspection Results" order="17" weight="0.32927448" />
+      <window_info anchor="right" id="Remote Host" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24986653" />
+      <window_info active="true" anchor="right" content_ui="combo" x="2282" y="-187" width="602" height="1647" id="Project" order="3" visible="true" weight="0.19978575" />
+      <window_info anchor="right" id="Favorites" order="4" side_tool="true" weight="0.13156512" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/fileReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="27" column="8" lean-forward="true" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+          <folding>
+            <element signature="n#__construct#0;n#fileReader#0;n#!!top" expanded="true" />
+            <element signature="n#getFileContents#0;n#fileReader#0;n#!!top" expanded="true" />
+            <element signature="n#cleanLines#0;n#fileReader#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lengthTracker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
+          <folding>
+            <element signature="n#__construct#0;n#lengthTracker#0;n#!!top" expanded="true" />
+            <element signature="n#trackWord#0;n#lengthTracker#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/anaylsis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="n#run#0;n#anaylsis#0;n#!!top" expanded="true" />
+            <element signature="n#printAnalysis#0;n#anaylsis#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/characterAnalysis.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="40" column="33" selection-start-line="40" selection-start-column="33" selection-end-line="40" selection-end-column="33" />
+          <folding>
+            <element signature="n#__construct#0;n#characterAnalysis#0;n#!!top" expanded="true" />
+            <element signature="n#analyzeCharacters#0;n#characterAnalysis#0;n#!!top" expanded="true" />
+            <element signature="n#getUppercaseCount#0;n#characterAnalysis#0;n#!!top" expanded="true" />
+            <element signature="n#getLowercaseCount#0;n#characterAnalysis#0;n#!!top" expanded="true" />
+            <element signature="n#getDigitCount#0;n#characterAnalysis#0;n#!!top" expanded="true" />
+            <element signature="n#getSpecialCharacterCount#0;n#characterAnalysis#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

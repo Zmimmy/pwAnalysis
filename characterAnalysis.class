@@ -1,0 +1,61 @@
+<?php
+
+class characterAnalysis
+{
+    protected $lowerOnly = 0;
+    protected $upperOnly = 0;
+    protected $digitOnly = 0;
+    protected $specialOnly = 0;
+    protected $lettersOnly = 0;
+    
+    public function __construct()
+    {
+    }
+    
+    public function analyzeCharacters($string)
+    {
+        $len = strlen($string);
+        $upper = $this->getUppercaseCount($string);
+        $lower = $this->getLowercaseCount($string);
+        $digit = $this->getDigitCount($string);
+        $special = $len - ($upper + $lower + $digit);
+//        $special = $this->getSpecialCharacterCount($string);
+        
+        $this->classifyResults($upper, $lower, $digit, $special, $len);
+    }
+    
+    protected function classifyResults($upper, $lower, $digit, $special, $len)
+    {
+        if ($upper === $len) {
+            $this->upperOnly++;
+        }
+        if ($lower === $len) {
+            $this->lowerOnly++;
+        }
+        if ($digit === $len) {
+            $this->digitOnly++;
+        }
+        if ($special === $len) {
+            $this->specialOnly++;
+        }
+        if ($upper + $lower === $len) {
+            $this->lettersOnly++;
+        }
+    }
+
+    public function getUppercaseCount($string) {
+        return strlen(preg_replace('![^A-Z]+!', '', $string));
+    }
+
+    public function getLowercaseCount($string) {
+        return strlen(preg_replace('![^a-z]+!', '', $string));
+    }
+
+    public function getDigitCount($string) {
+        return strlen(preg_replace('![^0-9]+!', '', $string));
+    }
+    
+    public function getSpecialCharacterCount($string) {
+        return strlen(preg_replace('![^A-Za-z0-9]+!', '', $string));
+    }
+}
